@@ -5,5 +5,8 @@ Console.WriteLine("Hello, World!");
 Calc calc = new Calc();
 Console.WriteLine("Add Call");
 calc.Add(10, 10);
-Console.WriteLine("Multi call");
-calc.Multi(10, 20);
+Console.WriteLine("Sub call");
+calc.Sub(30, 20);
+Console.WriteLine("Div Call");
+
+calc.Multi(200 , 100);
